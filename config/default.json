@@ -1,4 +1,6 @@
 {
   "dbURI": "mongodb://127.0.0.1:27017/mern",
-  "secretKey": "scsdfhlskdflkjasdlfkj"
+  "secretKey": "scsdfhlskdflkjasdlfkj",
+  "githubClientId": "b0ac5949451c12ed921b",
+  "githubSecret": "93e87f6f7ec107502cd5eec066d4d3e0ecf39ae0"
 }
