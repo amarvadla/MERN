@@ -2,6 +2,7 @@ import React, { Fragment, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { setAlert } from '../../actions/alert';
+import propTypes from 'prop-types';
 
 const Register = ({ setAlert }) => {
   const [formData, setFormData] = useState({
@@ -85,6 +86,10 @@ const Register = ({ setAlert }) => {
       </p>
     </Fragment>
   );
+};
+
+Register.propTypes = {
+  setAlert: propTypes.func.isRequired
 };
 
 export default connect(null, { setAlert })(Register);
